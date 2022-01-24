@@ -14,12 +14,18 @@ body{
     border-radius: 20px;
     position: relative;
     bottom: 35px;
-    background-color: #f5badfc0;
+    background-color: #f37fc7c0;
 }
 .ph-button{
-    background-color: #f5badfc0 !important;
+    background-color: #f8d3ea81 !important;
 }
 footer{
     height: 280px;
     background-color: #0B0D17;
+}
+.toast-border{
+    border-left: 10px solid rgb(0, 119, 255) !important;
+}
+a{
+    text-decoration: none;
 }
