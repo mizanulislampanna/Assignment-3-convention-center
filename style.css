@@ -14,7 +14,7 @@ body{
     border-radius: 20px;
     position: relative;
     bottom: 35px;
-    background-color: #f37fc7c0;
+    background-color: #bf00ff;
 }
 .ph-button{
     background-color: #f8d3ea81 !important;
@@ -26,6 +26,28 @@ footer{
 .toast-border{
     border-left: 10px solid rgb(0, 119, 255) !important;
 }
+.main-image{
+    top: -20%;
+    left:25%;
+}
 a{
     text-decoration: none;
+}
+@media only screen and (max-width:668px) {
+    .ph-slider{
+        font-size:5px !important;
+        padding: 5px !important;
+        margin: 0px;
+    }
+    .ph-image{
+        max-height: 200px;
+    }
+}
+@media only screen and (max-width:800px){
+    .ph-slider{
+        font-size:15px !important;
+    }
+    .ph-image{
+        left: 220px;
+}
 }
